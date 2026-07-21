@@ -46,7 +46,7 @@
   // Animated speed counter in hero
   var speedNum = document.getElementById('speedNum');
   if (speedNum) {
-    var target = 700, start = 0, dur = 1400, t0 = null;
+    var target = 500, start = 0, dur = 1400, t0 = null;
     var run = function (ts) {
       if (!t0) t0 = ts;
       var p = Math.min((ts - t0) / dur, 1);
